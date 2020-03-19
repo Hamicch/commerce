@@ -1,0 +1,140 @@
+<template>
+        <div>
+                <Header/>
+                        <b-container class="bv-example-row">
+                        <b-row>
+                        <b-col cols="3">
+                        <Categories  v-for="item in categories" :key="item.id" :item="item"/>
+                        </b-col>
+                        <b-col cols="9" float="right">
+                        <Carouse  />
+                        <Product v-for="product in product" :key="product.id"  :product="product"/>
+                        </b-col>
+                        </b-row>
+                        </b-container>
+                        <div class="category">
+                </div>
+        </div>
+</template>
+
+
+<script>
+
+
+
+import Header from './components/layout/Header'
+
+import Categories from './components/Categories'
+
+import Product from './components/Product'
+
+import Carouse from './components/Carouse'
+
+export default {
+        name: 'App',
+        components: {
+                Header,
+                Categories,
+                Product,
+                Carouse
+        },
+
+        data() {
+                return {
+                         categories: [
+                                 {
+                                id: 1,
+                                categoryName: 'Gaming'
+                        },
+                        {
+                                id: 2,
+                                categoryName: 'Electronics'
+                        },
+                        {
+                                id: 3,
+                                categoryName: 'Phones and Tablets'
+                        },
+                        {
+                                id: 4,
+                                categoryName: 'Cosmetics'
+                        },
+                        {
+                                id: 5,
+                                categoryName: 'Grocery'
+                        }
+                        ],
+                        product: [
+                                {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/1.jpg"),
+                                        categoryId: 2
+                                },
+                                {
+                                        name: 'Shoe',
+                                        price: 20000,
+                                        image: require("@/assets/2.jpg"),
+                                        categoryId: 3
+                                },
+                                        {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/3.jpg"),
+                                        categoryId: 1
+                                },
+                                {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/4.jpg"),
+                                        categoryId: 5
+                                },
+                                {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/5.jpg"),
+                                        categoryId: 1
+                                },
+                                {
+                                        name: 'IPhone 11',
+                                        price: 25000,
+                                        image: require("@/assets/6.jpg"),
+                                        categoryId: 4
+                                },
+                                {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/7.jpg"),
+                                        categoryId: 4
+                                },
+                                {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/8.jpg"),
+                                        categoryId: 3
+                                },
+                                {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/9.jpg"),
+                                        categoryId: 2
+                                },
+                                {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/10.jpg"),
+                                        categoryId: 1
+                                }
+                              
+                        ]
+                }
+        }
+}
+</script>
+
+
+<style scoped>
+
+
+
+
+</style>
