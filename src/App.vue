@@ -12,8 +12,8 @@
                         </b-col>
                         </b-row>
                         </b-container>
-                        <div class="category">
-                </div>
+                        <div class="category"></div>
+                        <Footer/>
         </div>
 </template>
 
@@ -30,13 +30,18 @@ import Product from './components/Product'
 
 import Carouse from './components/Carouse'
 
+import Footer from './components/layout/Footer'
+
+require('typeface-roboto')
+
 export default {
         name: 'App',
         components: {
                 Header,
                 Categories,
                 Product,
-                Carouse
+                Carouse,
+                Footer
         },
 
         data() {
@@ -133,7 +138,7 @@ export default {
 
 
 <style scoped>
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 
 
 
