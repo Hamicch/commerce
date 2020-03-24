@@ -13,13 +13,16 @@
     "mdbvue": "^6.5.1",
     "typeface-roboto": "0.0.75",
     "vue": "^2.6.11",
-    "vue-easy-slider": "^5.3.2"
+    "vue-easy-slider": "^5.3.2",
+    "vue-router": "^3.1.5",
+    "vue-slick-carousel": "^1.0.2"
   },
   "devDependencies": {
     "@babel/polyfill": "^7.7.0",
     "@fortawesome/fontawesome-free": "^5.12.1",
     "@vue/cli-plugin-babel": "~4.2.0",
     "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-plugin-router": "^4.2.3",
     "@vue/cli-service": "~4.2.0",
     "babel-eslint": "^10.0.3",
     "bootstrap": "^4.3.1",

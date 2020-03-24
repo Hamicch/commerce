@@ -4,10 +4,10 @@
                 <div class="card" style="width:400px">
                 <img class="card-img-top" :src="product.image" alt="Card image">
                 <div class="card-body">
-                <h4 class="card-title">{{ product.name }}</h4>
+                <h4 class="card-title"><router-link to="/product-page">{{ product.name }}</router-link></h4>
                 <p class="card-text">₦{{ product.price }}</p>
                 <p class="small text-muted">{{  }}</p>
-                <a href="#" class="btn btn-outline-dark">Buy Now</a>
+                <router-link to="/product-page"><a href="#" class="btn btn-outline-dark">Buy Now</a></router-link>
         </div>
 </div>
 </div>
