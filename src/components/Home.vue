@@ -18,65 +18,65 @@ export default {
 
         data() {
                 return {
-                        product: {
-                                name: 'Shoe',
-                                price: 25000,
-                                image: '',
-                                categoryId: 2
-                        },
-                        product: {
-                                name: 'Shoe',
-                                price: 20000,
-                                image: '',
-                                categoryId: 3
-                        },
-                        product: {
-                                name: 'Shoe',
-                                price: 25000,
-                                image: '',
-                                categoryId: 1
-                        },
-                        product: {
-                                name: 'Shoe',
-                                price: 25000,
-                                image: '',
-                                categoryId: 5
-                        },
-                        product: {
-                                name: 'Shoe',
-                                price: 25000,
-                                image: '',
-                                categoryId: 1
-                        },
-                        product: {
-                                name: 'Shoe',
-                                price: 25000,
-                                image: '',
-                                categoryId: 4
-                        },
-                        product: {
-                                name: 'Shoe',
-                                price: 25000,
-                                image: '',
-                                categoryId: 4
-                        },product: {
-                                name: 'Shoe',
-                                price: 25000,
-                                image: '',
-                                categoryId: 3
-                        },
-                        product: {
-                                name: 'Shoe',
-                                price: 25000,
-                                image: '',
-                                categoryId: 2
-                        },
-                        product: {
-                                name: 'Shoe',
-                                price: 25000,
-                                image: '',
-                                categoryId: 1
-                        }
+                        // product: {
+                        //         name: 'Shoe',
+                        //         price: 25000,
+                        //         image: '',
+                        //         categoryId: 2
+                        // },
+                        // product: {
+                        //         name: 'Shoe',
+                        //         price: 20000,
+                        //         image: '',
+                        //         categoryId: 3
+                        // },
+                        // product: {
+                        //         name: 'Shoe',
+                        //         price: 25000,
+                        //         image: '',
+                        //         categoryId: 1
+                        // },
+                        // product: {
+                        //         name: 'Shoe',
+                        //         price: 25000,
+                        //         image: '',
+                        //         categoryId: 5
+                        // },
+                        // product: {
+                        //         name: 'Shoe',
+                        //         price: 25000,
+                        //         image: '',
+                        //         categoryId: 1
+                        // },
+                        // product: {
+                        //         name: 'Shoe',
+                        //         price: 25000,
+                        //         image: '',
+                        //         categoryId: 4
+                        // },
+                        // product: {
+                        //         name: 'Shoe',
+                        //         price: 25000,
+                        //         image: '',
+                        //         categoryId: 4
+                        // },product: {
+                        //         name: 'Shoe',
+                        //         price: 25000,
+                        //         image: '',
+                        //         categoryId: 3
+                        // },
+                        // product: {
+                        //         name: 'Shoe',
+                        //         price: 25000,
+                        //         image: '',
+                        //         categoryId: 2
+                        // },
+                        // product: {
+                        //         name: 'Shoe',
+                        //         price: 25000,
+                        //         image: '',
+                        //         categoryId: 1
+                        // }
 
                 }
         }
