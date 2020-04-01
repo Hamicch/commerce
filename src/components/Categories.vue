@@ -28,8 +28,8 @@ export default {
 }
 
 .title {
-        background-color: #212121;
-        border: 1px solid #212121;
+        background-color: black;
+        border: 1px solid black;
         font-weight: 400;
 }
 </style>

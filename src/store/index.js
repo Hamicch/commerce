@@ -12,7 +12,7 @@ export const store = new Vuex.Store({
         id: uuidv4(),
         name: 'Shoe',
         price: '25,000',
-        image: require("@/assets/1.jpg"),
+        image: require("@/assets/shoe3.jpg"),
         categoryId: 2,
         minidescription: 'Light Weight Unisex Black Summer Sneakers',
         productCode: 'SJDI2020',

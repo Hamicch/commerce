@@ -1,41 +1,19 @@
 <template>
         <div class="row">
-                <!-- <div class="card" style="width:400px" v-for="product in allProducts" :key="product.id">
-                <img class="card-img-top" :src="product.image" alt="Card image">
-                <div class="card-body">
-                <h4 class="card-title" @click="goToProduct(product)"><a>{{ product.name }}</a></h4>
-                <p class="card-text">&#8358; {{ product.price }}</p>
-                <a href="#" class="btn btn-dark" @click="goToProduct(product)">Buy Now</a>
+                <div class="card card-cascade narrower rows rows-cols-4" v-for="product in allProducts" :key="product.id">
+                        <div class="view view-cascade overlay">
+                                <img class="card-img-top"  :src="product.image" alt="Card image cap">
+                                <a>
+                                        <div class="mask rgba-white-slight" @click="goToProduct(product)"></div>
+                                </a>
+                        </div>
+                        <div class="card-body card-body-cascade">
+                                <h4 class="font-weight-bold card-title" @click="goToProduct(product)">{{ product.name }}</h4>
+                                <h5 class="grey-text pb-2 pt-1">&#8358; {{ product.price }}</h5>
+                                <a class="btn btn-outline-dark btn-md" @click="goToProduct(product)">Buy Now</a>
+                        </div>
+                </div>
         </div>
-</div> -->
-<div class="card card-cascade narrower rows rows-cols-4" v-for="product in allProducts" :key="product.id">
-
-  <!-- Card image -->
-  <div class="view view-cascade overlay">
-    <img class="card-img-top"  :src="product.image"
-      alt="Card image cap">
-    <a>
-      <div class="mask rgba-white-slight" @click="goToProduct(product)"></div>
-    </a>
-  </div>
-
-  <!-- Card content -->
-  <div class="card-body card-body-cascade">
-
-    <!-- Label --> 
-   <h4 class="font-weight-bold card-title" @click="goToProduct(product)">{{ product.name }}</h4>
-    <!-- Title -->
-    <h5 class="grey-text pb-2 pt-1">&#8358; {{ product.price }}</h5>
-    <!-- Text -->
-    <!-- Button -->
-    <a class="btn btn-outline-dark" @click="goToProduct(product)">Buy Now</a>
-
-  </div>
-
-</div>
-</div>
-
-
 </template>
 
 
@@ -67,12 +45,6 @@ export default {
 
 <style scoped>
 
-/* .wrap {
-        display: inline-block;
-        list-style: none;
-        margin-top: 40px;
-        margin-left: 0px;
-} */
 .card-wrap {
          display: inline-block;
         list-style: none;
@@ -80,8 +52,8 @@ export default {
 }
 
 .card-cascade{
-        width: 200px;
-        height: 350px;
+        width: 160px;
+        height: 280px;
         margin: 15px;
         border-radius: 0;
 }

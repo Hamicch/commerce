@@ -1,5 +1,5 @@
 <template>
-       <mdb-footer color="elegant-color-dark" class=" body font-small pt-4 mt-4">
+       <mdb-footer color="elegant-color-black" class="body font-small black pt-4 mt-4">
     <mdb-container class="text-center text-md-left">
       <mdb-row class="text-center text-md-left mt-3 pb-3">
         <mdb-col md="3" lg="3" xl="3" class="mx-auto mt-3">

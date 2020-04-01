@@ -10,6 +10,9 @@ import 'mdbvue/lib/css/mdb.min.css'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import router from './router/index'
 import { store } from './store/index'
+import VueAgile from 'vue-agile'
+
+Vue.use(VueAgile)
 
 Vue.use(EasySlider)
 
