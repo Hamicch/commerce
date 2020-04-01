@@ -3,12 +3,21 @@
                 <Header/>
                         <b-container class="bv-example-row">
                         <b-row>
+<<<<<<< HEAD
                         <b-col cols="2">
                         <Categories  />
                         </b-col>
                         <b-col cols="10" float="right">
                         <Carouse  />
                         <Product />
+=======
+                        <b-col cols="3">
+                        <Categories  v-for="item in categories" :key="item.id" :item="item"/>
+                        </b-col>
+                        <b-col cols="9" float="right">
+                        <Carouse  />
+                        <Product v-for="product in product" :key="product.id"  :product="product"/>
+>>>>>>> 6b50da0022956462b1c535be2b1e2495eefbc600
                         </b-col>
                         </b-row>
                         </b-container>
@@ -63,6 +72,7 @@ export default {
                                 id: 4,
                                 categoryName: 'Cosmetics'
                         },
+<<<<<<< HEAD
                         // {
                         //         id: 5,
                         //         categoryName: 'Grocery'
@@ -129,6 +139,74 @@ export default {
                         //                 image: require("@/assets/10.jpg"),
                         //                 categoryId: 1
                         //         }
+=======
+                        {
+                                id: 5,
+                                categoryName: 'Grocery'
+                        }
+                        ],
+                        product: [
+                                {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/1.jpg"),
+                                        categoryId: 2
+                                },
+                                {
+                                        name: 'Shoe',
+                                        price: 20000,
+                                        image: require("@/assets/2.jpg"),
+                                        categoryId: 3
+                                },
+                                        {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/3.jpg"),
+                                        categoryId: 1
+                                },
+                                {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/4.jpg"),
+                                        categoryId: 5
+                                },
+                                {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/5.jpg"),
+                                        categoryId: 1
+                                },
+                                {
+                                        name: 'IPhone 11',
+                                        price: 25000,
+                                        image: require("@/assets/6.jpg"),
+                                        categoryId: 4
+                                },
+                                {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/7.jpg"),
+                                        categoryId: 4
+                                },
+                                {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/8.jpg"),
+                                        categoryId: 3
+                                },
+                                {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/9.jpg"),
+                                        categoryId: 2
+                                },
+                                {
+                                        name: 'Shoe',
+                                        price: 25000,
+                                        image: require("@/assets/10.jpg"),
+                                        categoryId: 1
+                                }
+>>>>>>> 6b50da0022956462b1c535be2b1e2495eefbc600
                               
                         ]
                 }
@@ -140,4 +218,9 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 6b50da0022956462b1c535be2b1e2495eefbc600
 </style>

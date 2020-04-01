@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <template>
     <agile
         :nav-buttons="false"
@@ -103,4 +104,34 @@ export default {
   max-width: 100%;
   height: auto;
 }
+=======
+<template>
+  <div id="carousel">
+      <Homeslider />
+  </div>
+  
+    
+</template>
+
+<script>
+
+import Homeslider from './layout/Homeslider'
+
+export default {
+  name: "Carouse",
+  components: {
+    Homeslider
+  },
+ 
+  data() {
+    return {
+           
+    }
+  }
+};
+</script>
+
+<style scoped>
+
+>>>>>>> 6b50da0022956462b1c535be2b1e2495eefbc600
 </style>

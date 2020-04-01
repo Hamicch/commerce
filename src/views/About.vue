@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+<<<<<<< HEAD
     <Header />
     <h1>This is an about page</h1>
     <Footer />
@@ -30,3 +31,8 @@ Footer {
 }
 
 </style>
+=======
+    <h1>This is an about page</h1>
+  </div>
+</template>
+>>>>>>> 6b50da0022956462b1c535be2b1e2495eefbc600
