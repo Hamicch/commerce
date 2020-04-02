@@ -1,10 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-<<<<<<< HEAD
-=======
-// import ProductPage from '../views/ProductPage'
->>>>>>> 6b50da0022956462b1c535be2b1e2495eefbc600
 
 Vue.use(VueRouter)
 
@@ -30,12 +26,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
-<<<<<<< HEAD
   mode: 'history',
   routes,
-=======
-  routes
->>>>>>> 6b50da0022956462b1c535be2b1e2495eefbc600
 })
 
 export default router
